@@ -20,9 +20,28 @@
 * The supported slider item buttom background color key is ```background_color``` if null we will use primary color
 * The supported slider item link key are ```url``` , ```link``` , ```url_button``` , ```video_link```
 
-<img width="1038" alt="image" src="https://user-images.githubusercontent.com/45198998/236615746-a8c80237-3618-4408-8eb3-6099881df4dc.png">
+```json
+{
+  "supported_file_names": [
+    "main-slider.twig", "main_slider2.twig", "slider.twig", "sslider.twig", "img-slider.twig", "template-velvet-main-slider.twig", "slider_img.twig"
+  ],
+  "supported_keys": {
+    "slider_items_list": "slider",
+    "hide_dots": { "type": "boolean", "default": true },
+    "item_type": { "keys": ["type", "slider_type"], "allowed_values": ["video", "image"], "default": "image" },
+    "image_keys": ["mobile_image", "image_mobile", "image", "img_slider_mobile", "img_slider"],
+    "video_keys": ["url", "link", "url_button", "video_link"],
+    "title": "title",
+    "subtitle_keys": ["subtitle", "des"],
+    "button_text_keys": ["btn_text", "text_button"],
+    "text_color": { "keys": ["text_color", "textColor"], "default": "white" },
+    "button_background_color": { "key": "background_color", "default": "primary" },
+    "item_link_keys": ["url", "link", "url_button", "video_link"]
+  }
+}
+```
 
-
+-----------------
 
 ## Gallery Module
 * The supported file names : ```gallery.twig``` , ```ggallery.twig``` , ```template-velvet-gallery.twig``` , ```home-banners-section.twig```
@@ -41,6 +60,25 @@
 <img width="1036" alt="image" src="https://user-images.githubusercontent.com/45198998/236616979-4d898944-0562-4323-8a80-1978558a8c5e.png">
 
 
+```json
+{
+  "supported_file_names": ["gallery.twig", "ggallery.twig", "template-velvet-gallery.twig", "home-banners-section.twig"],
+  "supported_keys": {
+    "gallery_items_list": ["gallery", "ads"],
+    "main_title": ["title", "banner_title"],
+    "image_key": ["image", "img"],
+    "item_link_keys": ["url", "link", "url_button", "video_link"],
+    "item_title": "title",
+    "subtitle_keys": ["subtitle", "des", "sub_title"],
+    "button_visibility": { "key": "show_button", "type": "boolean", "default": true },
+    "full_button_border": { "key": "full_btn_border", "type": "boolean", "default": false },
+    "button_text_keys": ["btn_text", "button_text", "buttonText", "text_button"],
+    "text_color": { "keys": ["text_color", "textColor"], "default": "white" },
+    "button_background_color": { "key": "button_color", "default": "primary" }
+  }
+}
+```
+
 ## Feature Module
 * The supported file names : ```features.twig``` , ```store-features.twig``` , ```features-section.twig```
 * The supported feature items list keys are ```features``` , ```store_features```
@@ -52,6 +90,20 @@
 
 <img width="1039" alt="image" src="https://user-images.githubusercontent.com/45198998/236617275-a60262c6-1fda-4b9c-8aa2-2086b8e8dc3c.png">
 
+
+```json
+{
+  "supported_file_names": ["features.twig", "store-features.twig", "features-section.twig"],
+  "supported_keys": {
+    "feature_items_list": ["features", "store_features"],
+    "background_color": { "key": "bg_color", "default": "white" },
+    "image_key": ["image", "img"],
+    "title_keys": ["title", "text"],
+    "description_keys": ["des", "desc"],
+    "text_color": { "key": "text_color", "default": "black" }
+  }
+}
+```
 
 ## Products Module
   * The supported file names : ```products.twig``` , ```offers.twig``` , ```products-section.twig``` , ```features-section.twig``` , ```product_grid.twig``` ,```top_picks_products.twig``` , ```bestseller-section.twig``` , ```products-selected.twig``` , ```home-featured-products-section.twig``` , ```section_products.twig``` , ```home-columns-products.twig```
@@ -206,8 +258,6 @@
 
 -------
 
-## This guide ensures that Zid theme developers follow structured naming conventions and keys for seamless integration with the Apps Bunches mobile app. Following these guidelines will lead to a smoother development process and an optimized end-user experience.
-
-
-
-
+## This guide ensures that Zid theme developers follow structured naming conventions and keys for seamless integration with the Apps Bunches mobile app. 
+* Following these guidelines will lead to a smoother development process and an optimized end-user experience.
+* If you have any inquiries, feel free to contact us directly via email at Dev@AppsBunches.com
