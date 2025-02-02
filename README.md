@@ -1,6 +1,10 @@
-# Apps Bunches Recommendation For Zid Themes Developers
+# Apps Bunches Recommendations for Zid Theme Developers
 
-## The following tips are the best way to make your theme compatible with apps bunches mobile app
+## Overview
+
+* This document outlines the best practices and supported file structures for integrating Zid themes with the Apps Bunches mobile application. By following these recommendations, developers can ensure optimal compatibility, functionality, and user experience.
+
+-----
 
 ## Slider Module
 * The supported file names : ```main-slider.twig``` , ```main_slider2.twig``` , ```slider.twig``` , ```sslider.twig``` , ```img-slider.twig``` , ```templete-velvet-main-slider.twig``` , ```slider_img.twig```
@@ -188,13 +192,10 @@
 
 <img width="1096" alt="image" src="https://user-images.githubusercontent.com/45198998/236626449-c2f888fc-765f-4188-aa85-8aab2e7d0425.png">
 
-
 ## Countdown Moudule
 * The supported file names : ```countdown_banner.twig```
 * The supported countdown date key is ```countdownDate```
 * The supported countdown banner key is ```countdownImage``` it should be a list of object named ```image```
-
-
 
 ## Icon Box Moudule
 * The supported file names : ```icon_box.twig```
@@ -202,5 +203,11 @@
 * The supported icon box key is ```icon```
 * The supported icon box title key is ```title```
 * The supported icon box description key is ```description```
+
+-------
+
+## This guide ensures that Zid theme developers follow structured naming conventions and keys for seamless integration with the Apps Bunches mobile app. Following these guidelines will lead to a smoother development process and an optimized end-user experience.
+
+
 
 
