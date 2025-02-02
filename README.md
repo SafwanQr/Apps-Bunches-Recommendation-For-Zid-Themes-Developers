@@ -119,6 +119,81 @@
 <img width="1086" alt="image" src="https://user-images.githubusercontent.com/45198998/236617803-3ab62113-25e2-44b3-ae35-dc12a5781c78.png">
 <img width="1102" alt="image" src="https://user-images.githubusercontent.com/45198998/236618576-ec0e6fdd-1cea-4afc-8342-898edf0bb535.png">
 
+
+```json
+{
+  "modules": [
+    {
+      "id": "81373ec6-8590-4141-b9da-944f4f902036",
+      "storefront_theme_store_id": "93baacfe-19ee-4c66-a3da-9c5f702aaed3",
+      "storefront_theme_file_id": "7de183cb-df6b-411f-b3f5-7f65f7f6ac7d",
+      "settings": {
+        "title": "منتجات متميزة",
+        "products": [
+          {
+            "product": {}
+          },
+          {
+            "product": {}
+          },
+          {
+            "product": {}
+          },
+          {
+            "product": {}
+          }
+        ],
+        "display_more": true,
+        "more_text": "استكشف المزيد",
+        "order": 7
+      },
+      "is_draft": 0,
+      "draft_for": null,
+      "is_deleted": 0,
+      "created_at": "2022-08-18T08:40:49.000000Z",
+      "updated_at": "2022-08-18T08:41:49.000000Z"
+    },
+    {
+      "id": "c8a997d6-dd0b-452e-ac69-7b71a776a940",
+      "storefront_theme_store_id": "e63c0adb-5f1d-44cb-9e48-4be4b4065a2a",
+      "storefront_theme_file_id": "d414294d-5b0f-4606-9611-32b8ceb5f164",
+      "settings": {
+        "title": "منتجات عليها عرض",
+        "products": {
+          "products": [],
+          "module_type": "sale_products"
+        },
+        "display_more": true,
+        "more_text": "عرض الكل عرض الكل عرض الكل",
+        "order": 12
+      },
+      "is_draft": 0,
+      "draft_for": null,
+      "is_deleted": 0,
+      "created_at": "2022-05-29T09:33:27.000000Z",
+      "updated_at": "2023-02-11T19:01:03.000000Z"
+    },
+    {
+      "id": "e087fa5d-1475-4bd0-be5c-5a58ee2bddc6",
+      "storefront_theme_store_id": "e63c0adb-5f1d-44cb-9e48-4be4b4065a2a",
+      "storefront_theme_file_id": "d414294d-5b0f-4606-9611-32b8ceb5f164",
+      "settings": {
+        "title": "منتجات عيد الله",
+        "products": {
+          "products": []
+        },
+        "url": "/categories/384063/",
+        "module_type": "products_category"
+      },
+      "more_text": "المزيد المزيد المزيد",
+      "order": 9,
+      "display_more": false
+    }
+  ]
+}
+```
+
+
 ## Category Module
 * The supported file names : ```category-products-section.twig``` , ```home-category-products.twig``` , ```home-products-section.twig```
 * The supported catgory moudule key is ```category```
